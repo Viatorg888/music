@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример лендинга</title>
+    <style>
+        /* Стили для заголовка */
+        h1 {
+            font-size: 36px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        /* Стили для подзаголовка */
+        h2 {
+            font-size: 24px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        /* Стили для кнопки */
+        .btn {
+            display: block;
+            margin: 50px auto;
+            padding: 10px 30px;
+            background-color: #008CBA;
+            color: #fff;
+            font-size: 20px;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+        }
+        
+        /* Стили для фона */
+        body {
+            background-color: #F2F2F2;
+        }
+        
+        /* Стили для контейнера */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Добро пожаловать на наш лендинг!</h1>
+        <h2>Здесь вы можете узнать о нашей компании и ее продуктах.</h2>
+        <a href="#" class="btn">Узнать бол
+
