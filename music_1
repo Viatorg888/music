@@ -1,0 +1,14 @@
+пример кода на языке Python, который находит папку с музыкальными файлами и запускает их в проигрывателе через командную строку в Windows. 
+import os
+
+# Путь к папке с музыкой
+path = "C:/Music"
+
+# Находим все файлы музыки в папке
+files = [os.path.join(path, f) for f in os.listdir(path) if f.endswith(".mp3")]
+
+# Строка для запуска проигрывателя
+player_command = "C:/Program Files (x86)/Windows Media Player/wmplayer.exe"
+
+# Запускаем проигрыватель с содержимым папки
+os.system(f"{player_command} {path}/*")
